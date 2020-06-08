@@ -18,8 +18,7 @@ x2 = list(range(1, int(max(x))))
 for i in x2:
     if i==0: next
     else:
-        print(m[x2.index(i)])
-        print(i)
+
         y2.append(math.sqrt((4.3*10**-6) * m[x2.index(i)] * 1/i))
 
 x2=np.array(x2)
